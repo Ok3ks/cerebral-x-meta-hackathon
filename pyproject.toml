@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hackathon"
+version = "0.1.0"
+description = "\"environment for cerebral x meta hackathon\""
+authors = ["y"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+huggingface = "^0.0.1"
+llama-index = "^0.11.23"
+chromadb = "^0.5.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

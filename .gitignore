@@ -1,0 +1,5 @@
+**.env
+**/models--meta-llama--LLama-3.2-3B
+**/finetuned_embedding_model
+**__pycache__
+**.mypy_cache
